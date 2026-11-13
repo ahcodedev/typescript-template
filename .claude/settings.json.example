@@ -1,0 +1,10 @@
+{
+  "sandbox": {
+    "filesystem": {
+      "allowWrite": [
+        "~/.cache/uv",
+        "~/.local/share/uv"
+      ]
+    }
+  }
+}

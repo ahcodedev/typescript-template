@@ -5,6 +5,16 @@
         "~/.cache/uv",
         "~/.local/share/uv"
       ]
+    },
+    "network": {
+      "allowedDomains": [
+        "api.github.com"
+      ]
     }
+  },
+  "permissions": {
+    "allow": [
+      "gh pr edit *"
+    ]
   }
 }

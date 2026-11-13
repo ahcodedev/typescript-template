@@ -28,6 +28,9 @@ jobs:
         just-version: 1.59.0
     - name: Setup uv
       uses: astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78 # v7
+    - name: Install zizmor
+      run: |
+        uv tool install zizmor==1.32.0
     - name: Audit workflows
       env:
         GH_TOKEN: ${{ github.token }}

@@ -1,2 +1,5 @@
 brew "fnm"
-brew "just" 
+brew "just"
+brew "zizmor"
+brew "gitleaks"
+brew "prek"
